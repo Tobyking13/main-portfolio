@@ -60,7 +60,7 @@ body {
 
 #title {
     position: relative;
-    top: 10%;
+    /* top: 10%; */
     color: white;
     font-size: 8rem;
     font-family: 'Triangled tfb', sans-serif;
@@ -94,6 +94,7 @@ body {
         var(--light) var(--light-percent),
         var(--dark) 
     );
+
     content: "";
     left: 0px;
     top: 0px;

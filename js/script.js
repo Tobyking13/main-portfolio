@@ -22,6 +22,8 @@ document.getElementById("title").onmouseover = e => {
     if (interations >= title.length) {
         clearInterval(interval)
     }
+
+    console.log(interations)
     interations += 1/3;
 }, 30)
 }
